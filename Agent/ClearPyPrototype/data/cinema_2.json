@@ -1,0 +1,79 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Recommend me a good action movie",
+        "intent": "recommend_movie",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "action",
+            "entity": "genre"
+          }
+        ]
+      },
+      {
+        "text": "What's the rating for the movie Inception?",
+        "intent": "ask_movie_rating",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "Inception",
+            "entity": "movie_title"
+          }
+        ]
+      },
+      {
+        "text": "Tell me about the upcoming superhero movies",
+        "intent": "upcoming_movies",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "superhero",
+            "entity": "genre"
+          }
+        ]
+      },
+      {
+        "text": "Suggest a romantic movie for a date night",
+        "intent": "recommend_movie",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "romantic",
+            "entity": "genre"
+          }
+        ]
+      },
+      {
+        "text": "Is there a cinema with IMAX in the city?",
+        "intent": "ask_imax_cinema",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "IMAX",
+            "entity": "format"
+          }
+        ]
+      },
+      {
+        "text": "What are the showtimes for the movie Joker?",
+        "intent": "ask_showtimes",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "Joker",
+            "entity": "movie_title"
+          }
+        ]
+      }
+      // Add more examples as needed
+    ]
+  }
+}

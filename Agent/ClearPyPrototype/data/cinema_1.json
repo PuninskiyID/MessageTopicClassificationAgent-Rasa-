@@ -1,0 +1,58 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What movies are playing today?",
+        "intent": "ask_movies",
+        "entities": []
+      },
+      {
+        "text": "Tell me about the latest releases",
+        "intent": "ask_latest_releases",
+        "entities": []
+      },
+      {
+        "text": "Where is the nearest cinema?",
+        "intent": "ask_cinema_location",
+        "entities": []
+      },
+      {
+        "text": "I'd like to buy tickets for a horror movie",
+        "intent": "buy_tickets",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "horror",
+            "entity": "genre"
+          }
+        ]
+      },
+      {
+        "text": "What time does the Avengers movie start?",
+        "intent": "ask_movie_time",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Avengers",
+            "entity": "movie_title"
+          }
+        ]
+      },
+      {
+        "text": "Are there any family-friendly movies playing?",
+        "intent": "ask_family_movies",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "family-friendly",
+            "entity": "genre"
+          }
+        ]
+      }
+      // Add more examples as needed
+    ]
+  }
+}
